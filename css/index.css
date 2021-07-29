@@ -15,21 +15,27 @@ body{
 
 nav{
     display: block;
-    /* text-align: center; */
     padding: 0.5rem;
     border-radius:1rem 1rem;
     background-color: var(--primary-color);
-    border: 1rem;
-    margin: auto;
 }
 
+nav span{
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    float: left;
+    padding: 1rem;
+}
+nav ul{
+    text-align: right;
 
-
+}
 nav ul li{
     list-style: none;
     display: inline;
-    padding: 2rem;
-    
+    padding: 1rem;
+    margin: 1rem;
     
 }
 
