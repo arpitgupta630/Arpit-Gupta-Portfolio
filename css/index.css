@@ -15,7 +15,7 @@ body{
 
 nav{
     display: block;
-    text-align: center;
+    /* text-align: center; */
     padding: 0.5rem;
     border-radius:1rem 1rem;
     background-color: var(--primary-color);
@@ -41,7 +41,7 @@ nav ul li a{
 }
 
 .head img{
-    max-width: 500px;
+    max-width: 450px;
     padding-top: 2rem;
     display: block;
     margin: auto;
